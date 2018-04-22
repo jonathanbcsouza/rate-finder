@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Rate Finder</string>
+
+    <!--Sizes-->
+    <string name="small">Package: Small</string>
+    <string name="medium">Package: Medium</string>
+    <string name="large">Package: Large</string>
+
+    <!--Messages-->
+    <string name="no_values_msg">No values entry</string>
+    <string name="fill_field">Please, entry the values</string>
+    <string name="pack_msg">Package needed: </string>
+    <string name="price_msg">Price: NDZ</string>
+    <string name="got_it">Got it</string>
+    <string name="buy">Buy</string>
+    <string name="error">Attention</string>
+    <string name="maxValues">The dimensions or weight exceeds the max.</string>
+    <string name="maxWeight">"\n"Weight = Limit of 25kg per package "\n" "\n"Dimens =Limit of L(400) X B(600) X H(250) per package</string>
+
+    <!--Hints-->
+    <string name="hint_length">Type the Length</string>
+    <string name="hint_breath">Type the Breadth</string>
+    <string name="hint_height">Type the Height</string>
+    <string name="hint_weight">Type the Weight</string>
+
+    <!--Button-->
+    <string name="submit">Submit</string>
+    <string name="go_to_report">Report</string>
+    <string name="go_to_news">News</string>
+    <string name="go_to_website">Website</string>
+
+
+    <!--OTHERS-->
+    <string name="dimensions_mm">mm</string>
+    <string name="kg">Kg</string>
+</resources>

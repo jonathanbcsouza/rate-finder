@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="54dp"
+    android:orientation="horizontal"
+    tools:context=".Report">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ReportTextViews"
+            android:text="Length:" />
+
+        <TextView
+            style="@style/ReportTextViews"
+            android:text="Breadth:" />
+
+        <TextView
+            style="@style/ReportTextViews"
+            android:text="Height:" />
+
+        <TextView
+            style="@style/ReportTextViews"
+            android:text="Weight:" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/reportLength"
+            style="@style/ReportTextViews"
+            android:text="Answer 1" />
+
+        <TextView
+            android:id="@+id/reportBreadth"
+            style="@style/ReportTextViews"
+            android:text="Answer 2" />
+
+        <TextView
+            android:id="@+id/reportHeight"
+            style="@style/ReportTextViews"
+            android:text="Answer 3" />
+
+        <TextView
+            android:id="@+id/reportWeight"
+            style="@style/ReportTextViews"
+            android:text="Answer 4" />
+
+
+    </LinearLayout>
+</LinearLayout>

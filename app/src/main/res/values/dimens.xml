@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Margins -->
+    <dimen name="appMarginTop">16dp</dimen>
+    <dimen name="appMarginRight">24dp</dimen>
+    <dimen name="appMarginBottom">24dp</dimen>
+    <dimen name="appMarginLeft">24dp</dimen>
+
+    <!-- Font Sizes -->
+    <dimen name="editText">16sp</dimen>
+    <dimen name="yellowBox">15sp</dimen>
+    <dimen name="buttons">14sp</dimen>
+
+
+</resources>
