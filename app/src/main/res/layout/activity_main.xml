@@ -14,7 +14,7 @@
         <LinearLayout style="@style/UserInputs">
 
             <EditText
-                android:id="@+id/length"
+                android:id="@+id/maxLength"
                 style="@style/EditTexts"
                 android:hint="@string/hint_length" />
 
@@ -25,7 +25,7 @@
         <LinearLayout style="@style/UserInputs">
 
             <EditText
-                android:id="@+id/breadth"
+                android:id="@+id/maxBreadth"
                 style="@style/EditTexts"
                 android:hint="@string/hint_breath" />
 

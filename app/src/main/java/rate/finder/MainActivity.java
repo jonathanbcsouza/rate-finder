@@ -26,9 +26,6 @@ public class MainActivity extends AppCompatActivity {
     private String packType;
     private String price;
     private String confirmButton;
-    private Button btnSubmit;
-    private Button btnGoToWebsite;
-    private Button btnGoToReport;
     private int maxWeight = 25;
 
     @Override
@@ -40,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
         breadth = findViewById(R.id.breadth);
         height = findViewById(R.id.height);
         weight = findViewById(R.id.weight);
-        btnSubmit = findViewById(R.id.submit);
-        btnGoToReport = findViewById(R.id.goToReport);
-        btnGoToWebsite = findViewById(R.id.goToWebsite);
+        Button btnSubmit = findViewById(R.id.submit);
+        Button btnGoToReport = findViewById(R.id.goToReport);
+        Button btnGoToWebsite = findViewById(R.id.goToWebsite);
 
         // Objects Created
         final Package small = new Package(200, 300, 150, 5.00);
@@ -55,17 +52,17 @@ public class MainActivity extends AppCompatActivity {
 
                 getAndConverter();
 
-                if (lengthChoice > large.getLength() || breadthChoice > large.getBreadth() || heightChoice > large.getBreadth() || weightChoice > maxWeight) {
+                if (lengthChoice > large.getMaxLength() || breadthChoice > large.getMaxBreadth() || heightChoice > large.getMaxHeight() || weightChoice > maxWeight) {
                     buildDialogMsg(getString(R.string.error), getString(R.string.maxValues), getString(R.string.maxWeight), getString(R.string.got_it));
 
                 } else {
 
                     if (lengthChoice > 0 && breadthChoice > 0 && heightChoice > 0 && weightChoice > 0) {
 
-                        if (lengthChoice <= small.getLength() && breadthChoice <= small.getBreadth() && heightChoice <= small.getHeigth()) {
+                        if (lengthChoice <= small.getMaxLength() && breadthChoice <= small.getMaxBreadth() && heightChoice <= small.getMaxHeight()) {
                             buildDialogMsg(getString(R.string.pack_msg), getString(R.string.small), getString(R.string.price_msg) + " " + small.getPrice(), getString(R.string.buy));
 
-                        } else if (lengthChoice > medium.getLength() || breadthChoice > medium.getBreadth() || heightChoice > medium.getHeigth()) {
+                        } else if (lengthChoice > medium.getMaxLength() || breadthChoice > medium.getMaxBreadth() || heightChoice > medium.getMaxHeight()) {
                             buildDialogMsg(getString(R.string.pack_msg), getString(R.string.large), getString(R.string.price_msg) + " " + medium.getPrice(), getString(R.string.buy));
 
                         } else {
@@ -91,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Future feature starting code
+        // Future feature (starting code)
         btnGoToReport.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 

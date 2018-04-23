@@ -2,40 +2,40 @@ package rate.finder;
 
 public class Package {
 
-    private int length ;
-    private int breadth ;
-    private int heigth ;
-    private double price ;
+    private int maxLength;
+    private int maxBreadth;
+    private int maxHeight;
+    private double price;
 
     public Package(int length, int breadth, int height, double price) {
-        this.length = length;
-        this.breadth = breadth;
-        this.heigth = height;
+        this.maxLength = length;
+        this.maxBreadth = breadth;
+        this.maxHeight = height;
         this.price = price;
     }
 
-    public int getLength() {
-        return length;
+    public int getMaxLength() {
+        return maxLength;
     }
 
-    public void setLength(int length) {
-        this.length = length;
+    public void setMaxLength(int maxLength) {
+        this.maxLength = maxLength;
     }
 
-    public int getBreadth() {
-        return breadth;
+    public int getMaxBreadth() {
+        return maxBreadth;
     }
 
-    public void setBreadth(int breadth) {
-        this.breadth = breadth;
+    public void setMaxBreadth(int maxBreadth) {
+        this.maxBreadth = maxBreadth;
     }
 
-    public int getHeigth() {
-        return heigth;
+    public int getMaxHeight() {
+        return maxHeight;
     }
 
-    public void setHeigth(int heigth) {
-        this.heigth = heigth;
+    public void setMaxHeight(int maxHeight) {
+        this.maxHeight = maxHeight;
     }
 
     public double getPrice() {
