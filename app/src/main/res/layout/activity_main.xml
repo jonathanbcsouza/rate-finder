@@ -14,22 +14,22 @@
         <LinearLayout style="@style/UserInputs">
 
             <EditText
-                android:id="@+id/maxLength"
+                android:id="@+id/length"
                 style="@style/EditTexts"
                 android:hint="@string/hint_length" />
 
-            <TextView style="@style/YellowBox" />
+            <TextView style="@style/RedBox" />
 
         </LinearLayout>
 
         <LinearLayout style="@style/UserInputs">
 
             <EditText
-                android:id="@+id/maxBreadth"
+                android:id="@+id/breadth"
                 style="@style/EditTexts"
                 android:hint="@string/hint_breath" />
 
-            <TextView style="@style/YellowBox" />
+            <TextView style="@style/RedBox" />
 
         </LinearLayout>
 
@@ -40,7 +40,7 @@
                 style="@style/EditTexts"
                 android:hint="@string/hint_height" />
 
-            <TextView style="@style/YellowBox" />
+            <TextView style="@style/RedBox" />
 
         </LinearLayout>
 
@@ -52,7 +52,7 @@
                 android:hint="@string/hint_weight" />
 
             <TextView
-                style="@style/YellowBox"
+                style="@style/RedBox"
                 android:text="@string/kg" />
 
         </LinearLayout>

@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#f8ae2c</color>
+    <color name="colorPrimary">#dc1718</color>
     <color name="colorPrimaryDark">#ac350b</color>
     <color name="colorAccent">#FF4081</color>
 
-    <!-- Colors from Trade Me-->
-    <color name="colorLogoOrange">#f8ae2c</color>
-    <color name="colorLogoBlue">#0066cc</color>
-    <color name="colorMarketPlace">#d93a3f</color>
-    <color name="colorJobs">#f06534</color>
-    <color name="colorMotors">#738297</color>
-    <color name="colorProperty">#72ae2d</color>
+    <color name="white">#fff</color>
+
 
 </resources>
