@@ -14,7 +14,3 @@ The app when supplied the dimensions (maxLength x maxBreadth x height) and weigh
 
 ## Future ##
 Use API to collect distance between 2 cities choosed.
-
----
-## Contributions ##
-You are welcome :)
