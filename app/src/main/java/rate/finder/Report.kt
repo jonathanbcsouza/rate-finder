@@ -4,8 +4,6 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.TextView
 
-// Kotlin Class Created
-
 class Report : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

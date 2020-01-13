@@ -11,6 +11,3 @@ You can find the MainActivity.java [here](app/src/main/java/rate/finder/MainActi
 
 ## Features ##
 The app when supplied the dimensions (maxLength x maxBreadth x height) and weight of a package, advise on the cost and type of package required. If the package exceeds these dimensions - or is over 25kg - then the service not return a packaging solution.
-
-## Future ##
-Use API to collect distance between 2 cities choosed.
